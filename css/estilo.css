@@ -100,6 +100,7 @@ h2{
     justify-content:space-around;
     align-items:center; 
     padding: 10px;  
+
 }
 
 .redes{
@@ -166,20 +167,20 @@ h2{
     .footer{
         flex-direction: column;
     }
-.navbar{
+    .navbar{
     justify-content: center;
     align-items: center;
-}
-.cuadros{
+    }
+    .cuadros{
     padding: 10px;
     text-align: center;
     margin: 20px;
-}
-.novedades{
+    }
+    .novedades{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
 
 @media screen and (max-width:375px){
