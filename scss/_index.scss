@@ -1,0 +1,38 @@
+main{
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+    text-align: center;
+    .imagenes{
+        grid-area: section1; 
+        padding: 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+            img{
+                display: flex;
+                width: 400px;
+                height: 230px;
+                padding: 10px;
+                justify-content: space-between;
+                align-items: center;
+            }
+    }
+    .informacion{
+        grid-area: section2; 
+        color: black;
+        text-align: center;
+        padding: 10px;
+        line-height: 1.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-content: center;
+        align-items: center;
+        p{
+            line-height: 1.5rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    }
+}

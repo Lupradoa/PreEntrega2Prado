@@ -1,0 +1,29 @@
+main{
+    .texto{
+        margin-top: 20px;
+        text-align: center;
+        line-height: .5rem;        
+    }
+    h3{
+        text-align: center ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        padding: 10px;
+        font-style:italic;
+        font-size: 1.5rem;
+        }
+        .novedades{
+            width: 200px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+            }
+}
+}

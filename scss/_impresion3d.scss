@@ -1,0 +1,33 @@
+main{
+    grid-area: section1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section1{
+        div{
+            h3{
+                text-align: center ;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: normal;
+                padding: 10px;
+                font-style:italic;
+                font-size: 1.5rem;
+            }
+            p{
+                line-height: 1.5rem;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                padding: 10px;
+            }
+
+        }
+    }
+    .section2{
+        padding: 20px;
+        .carrusel{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+    }
+}
