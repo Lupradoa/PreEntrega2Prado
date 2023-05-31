@@ -352,11 +352,11 @@ input[type="reset"]:hover {
     main .trabajos h3 {
       text-align: justify; }
     main .trabajos .novedades {
-      display: flex;
-      flex-direction: column; }
-      main .trabajos .novedades img {
-        display: flex;
-        flex-direction: column; }
-  footer {
-    display: flex;
-    flex-direction: column; } }
+      flex-wrap: wrap; }
+    main .trabajos .novedades img {
+      width: 100%;
+      margin-bottom: 10px; } }
+
+footer {
+  display: flex;
+  flex-direction: column; }
