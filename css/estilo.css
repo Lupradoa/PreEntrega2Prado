@@ -354,6 +354,9 @@ input[type="reset"]:hover {
     main .trabajos .novedades {
       display: flex;
       flex-direction: column; }
+      main .trabajos .novedades img {
+        display: flex;
+        flex-direction: column; }
   footer {
     display: flex;
     flex-direction: column; } }
