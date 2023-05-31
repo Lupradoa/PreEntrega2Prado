@@ -201,13 +201,14 @@
                             text-align: justify;
 
                         }
-                        .novedades{
-                            display: flex;
-                            flex-direction: column;
-                            img{
-                                display: flex;
-                                flex-direction: column;
-                            }
+                        .novedades {
+                            flex-wrap: wrap;
+                          }
+                        
+                          .novedades img {
+                            width: 100%;
+                            margin-bottom: 10px;
+                          }
                         }
                     }
                     }
