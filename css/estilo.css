@@ -239,7 +239,10 @@ input[type="reset"]:hover {
       justify-content: center; }
       main .imagenes img {
         max-width: 100%;
-        height: auto; } }
+        height: auto; }
+  footer {
+    display: flex;
+    flex-direction: column; } }
 
 /*MEDIAS QUERIES "INDEX MOBILE "*/
 @media screen and (max-width: 375px) {
@@ -282,7 +285,10 @@ input[type="reset"]:hover {
       max-width: 100%; }
     main .imagenes {
       justify-content: center;
-      align-items: center; } }
+      align-items: center; }
+  footer {
+    display: flex;
+    flex-direction: column; } }
 
 /*MEDIAS QUERIES "LASER MOBILE "*/
 @media screen and (max-width: 375px) {
@@ -304,7 +310,10 @@ input[type="reset"]:hover {
       max-width: 100%; }
     main .imagenes {
       justify-content: center;
-      align-items: center; } }
+      align-items: center; }
+  footer {
+    display: flex;
+    flex-direction: column; } }
 
 /*MEDIAS QUERIES "NOVEDADES*/
 @media screen and (max-width: 768px) {
@@ -319,7 +328,10 @@ input[type="reset"]:hover {
       line-height: 1rem; }
     main .nuevo .novedades {
       display: flex;
-      align-items: center; } }
+      align-items: center; }
+  footer {
+    display: flex;
+    flex-direction: column; } }
 
 /*MEDIAS QUERIES "NOVEDADES MOBILE"*/
 @media screen and (max-width: 375px) {
@@ -341,4 +353,7 @@ input[type="reset"]:hover {
       text-align: justify; }
     main .trabajos .novedades {
       display: flex;
-      flex-direction: column; } }
+      flex-direction: column; }
+  footer {
+    display: flex;
+    flex-direction: column; } }

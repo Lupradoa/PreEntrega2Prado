@@ -21,7 +21,12 @@
             }
         }
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
+   
     
             
             /*MEDIAS QUERIES "INDEX MOBILE "*/
@@ -91,6 +96,10 @@
                         align-items: center;
                     }
                 }
+                footer{
+                    display: flex;
+                    flex-direction: column;
+                }
             }
 
 
@@ -125,7 +134,11 @@
                         align-items: center;
                     }
                 }
-            }
+
+                footer{
+                    display: flex;
+                    flex-direction: column;
+                }            }
 
             /*MEDIAS QUERIES "NOVEDADES*/
             @media screen and (max-width: 768px) {
@@ -150,6 +163,10 @@
                                 align-items: center;
                         }
                         }
+                }
+                footer{
+                    display: flex;
+                    flex-direction: column;
                 }
                     
         }
@@ -189,6 +206,10 @@
                             flex-direction: column;
                         }
                     }
+                    }
+                    footer{
+                        display: flex;
+                        flex-direction: column;
                     }
             }
         
