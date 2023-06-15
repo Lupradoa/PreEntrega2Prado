@@ -22,11 +22,14 @@
         }
     }
     footer{
-        display: flex;
-        flex-direction: column;
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
+        
     }
 }
-   
+
     
             
             /*MEDIAS QUERIES "INDEX MOBILE "*/
@@ -55,8 +58,11 @@
                 }
             }
             footer{
-                display: flex;
-                flex-direction: column;
+                .footer{
+                    display: flex;
+                    flex-direction: column;
+                }
+                
             }
         }    
     
@@ -117,22 +123,23 @@
                 main{
                     margin-top: 50%;
                     .laser { 
+                        grid-area: section1;
                         display: flex;
                         flex-direction: column; 
                         align-items: center;
                         justify-content: center;
                     }
-                    .videos{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        max-width: 100%;                  
+                    .multimedia{
+                        grid-area: section2;
+                        .videos{
+                            display: flex;
+                            justify-content:center;              }
+                        .imagenes{
+                            justify-content: center;
+                            align-items: center;
+                        }
                     }
-                    .imagenes{
-                        justify-content: center;
-                        align-items: center;
-                    }
+                    
                 }
 
                 footer{
@@ -161,6 +168,10 @@
                         .novedades{        
                                 display: flex;
                                 align-items: center;
+                                .img{
+                                    width: 100%;
+                                    height: auto;
+                                }
                         }
                         }
                 }
@@ -191,7 +202,6 @@
                             .texto{
                                 font-size: 1rem;
                                 line-height: 1rem;
-                                text-align: justify;
                             }
                           }
                     .trabajos{
@@ -202,7 +212,8 @@
 
                         }
                         .novedades {
-                            flex-wrap: wrap;
+                            display: flex;
+                            flex-direction: column;
                           }
                         
                           .novedades img {
