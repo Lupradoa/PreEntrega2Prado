@@ -114,7 +114,6 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
     padding: 10px;
-    font-style: italic;
     font-size: 1.5rem; }
   main .section1 div p {
     line-height: 1.5rem;
@@ -186,6 +185,11 @@ main .novedades {
     transition: transform 0.3s ease; }
     main .novedades img:hover {
       transform: scale(1.1); }
+
+.contacto {
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem; }
 
 .formulario {
   display: flex;
@@ -361,6 +365,8 @@ input[type="reset"]:hover {
       display: flex;
       flex-direction: column; }
     main .trabajos .novedades img {
+      display: flex;
+      flex-direction: column;
       width: 100%;
       margin-bottom: 10px; } }
 
