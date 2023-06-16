@@ -165,7 +165,8 @@ main .multimedia {
 main .texto {
   margin-top: 20px;
   text-align: center;
-  line-height: 1rem; }
+  line-height: 1.5rem;
+  font-size: 1.5rem; }
 
 main h3 {
   text-align: center;
@@ -190,6 +191,10 @@ main .novedades {
   font-weight: 700;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2rem; }
+
+.opinion {
+  font-size: 1.5rem;
+  line-height: 1.5rem; }
 
 .formulario {
   display: flex;
