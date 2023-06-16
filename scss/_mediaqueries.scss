@@ -173,7 +173,7 @@
                                     height: auto;
                                 }
                         }
-                        }
+                    }
                 }
                 footer{
                     display: flex;
@@ -203,7 +203,7 @@
                                 font-size: 1rem;
                                 line-height: 1rem;
                             }
-                          }
+                        }
                     .trabajos{
                         display: flex ;
                         flex-direction: column;
@@ -214,14 +214,14 @@
                         .novedades {
                             display: flex;
                             flex-direction: column;
-                          }
+                        }
                         
-                          .novedades img {
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-                            margin-bottom: 10px;
-                          }
+                            .novedades img {
+                                display: flex;
+                                flex-direction: column ;
+                                width: 100%;
+                                margin-bottom: 10px;
+                        }
                         }
                     }
                     }
